@@ -7,8 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-    <style>
+	<script src="https://kit.fontawesome.com/656a7483fb.js" crossorigin="anonymous"></script>
 
+    <style>
+		
     </style>
 
     <title>The Teen Space</title>
@@ -51,14 +53,14 @@
                 Write a blog, expand your knowledge in the field of Science, Business, History, Technology with the help of our content. Share your information...and help others grow along the way!!!
             </h4>
 
-            <button type="button" class="btn btn-dark mt-4"><h5 class="p-2">Collaborate with us</h5></button>
+            <button type="button" class="btn btn-dark mt-4"><a href="#contact" style="text-decoration: none;"><h5 class="text-white p-2">Collaborate with us</h5></a></button>
 
         </div>
     </div>
 
 
     <!-- about us -->
-    <div class="p-5 mb-4 bg-primary rounded-3">
+    <div class="p-5 bg-dark rounded-3">
         <a id="about">
             <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold text-white">About Us</h1>
@@ -67,47 +69,69 @@
         </a>
     </div>
 
+	
+	<!-- connect -->
+	<div class="p-5 bg-light rounded-3">
+        <a id="about">
+            <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Connect</h1>
+			<p class="col-md-8 fs-4">Become a part of our awesome community.</p>
+			<div class="social-btns">
+				<a class="btn facebook" href="https://www.instagram.com/theteenspace/"><i class="fab fa-instagram fa-3x"></i></a>
+				<a class="btn twitter" href="https://twitter.com/theteeenspace"><i class="fab fa-twitter fa-3x"></i></a>
+				<a class="btn google" href="#"><i class="fab fa-discord fa-3x"></i></a>
+				<a class="btn dribbble" href="#"><i class="fab fa-pinterest fa-3x"></i></a>
+				<a class="btn dribbble" href="https://theteenspace.medium.com"><i class="fab fa-medium-m fa-3x"></i></a>
+			</div>
+            </div>
+        </a>
+	</div>
+
     <!-- contact -->
     <div class="p-5 mb-4 bg-light rounded-3">
         <a id="contact">
             <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Contact Us</h1>
-            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <p class="col-md-8 fs-4">
+				Want to collaborate with us, ask a question or just want to say hey? Get in touch!
+			</p>
+            <button type="button" class="btn btn-dark mt-4">
+                <a href="mailto:contact.theteenspace@gmail.com" class="text-white" style="text-decoration: none;"><h5 class="text-white p-1">Contact</h5></a>
+            </button>            
             </div>
         </a>
-    </div>
+	</div>
+	
+	
 
 
     <!-- footer -->
     <div class="page-footer navbar-light">
-        <div class="container p-4">
+        <div class="container p-5">
             <div class="row">
                 <a class="navbar-brand" href="#">
                     <img src="img.png" alt="" width="150" height="90">
                 </a>
             </div>
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                <h5 class="text-dark pt-3">Events</h5>
-                <ul class="navbar-nav ml-auto">
-                    <li><a class="nav-item nav-link" href="/events/category/Performance">Performances</a></li>
-                    <li><a class="nav-item nav-link" href="/events/category/Competition">Competitions</a></li>
-                    <li><a class="nav-item nav-link" href="/events/category/Workshop">Workshops</a></li>
-                    <li><a class="nav-item nav-link" href="/events/category/Exhibition">Exhibitions</a></li>
-                    <li><a class="nav-item nav-link" href="/events/category/Miscellaneous">Miscellaneous</a></li>
-                    
-                </ul>
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                <p class="text-dark pt-3">
+					Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+				</p>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                <h5 class="text-dark pt-3">Contact</h5>
-                <ul class="navbar-nav ml-auto">
-                    <li><a class="nav-item nav-link" href="/about">About Us</a></li>
-                    <li><a class="nav-item nav-link" href="/contact">Contact Us</a></li>
-                </ul>
+                <div class="col-xs-8 col-sm-8 col-md-8 text-center">
+					<h5 class="text-dark pt-3 pb-3">Connect with us on social media</h5>
+					<div class="social-btns">
+						<a class="btn facebook" href="https://www.instagram.com/theteenspace/"><i class="fab fa-instagram fa-2x"></i></a>
+						<a class="btn twitter" href="https://twitter.com/theteeenspace"><i class="fab fa-twitter fa-2x"></i></a>
+						<a class="btn google" href="#"><i class="fab fa-discord fa-2x"></i></a>
+						<a class="btn dribbble" href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+						<a class="btn dribbble" href="https://theteenspace.medium.com"><i class="fab fa-medium-m fa-2x"></i></a>
+					</div>
                 </div>
             </div>
     
-            <div class="footer-copyright text-center pt-3">
+            <div class="footer-copyright text-center pt-5">
                 © 2021 Copyright: The Teen Space <br>
                 Developed by Haider Shawl
             </div>
