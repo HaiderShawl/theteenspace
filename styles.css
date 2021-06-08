@@ -1,0 +1,49 @@
+/* adding font families */
+
+@font-face {
+    font-family: GTW-B;
+    src: url(Fonts/GTWalsheimPro-Bold.woff);
+}
+
+@font-face {
+    font-family: GTW-M;
+    src: url(Fonts/GTWalsheimPro-Medium.woff);
+}
+
+@font-face {
+    font-family: GTW-R;
+    src: url(Fonts/GTWalsheimPro-Regular.woff);
+}
+
+/* #GTW-B{
+    font-family: GTW-B, sans-serif;
+}
+
+#GTW-M{
+    font-family: GTW-M, sans-serif;
+}
+
+#GTW-R{
+    font-family: GTW-R, sans-serif;
+} */
+
+/* assigning fonts */
+
+h1 {
+    font-family: GTW-B;
+}
+
+h4, button {
+    font-family: GTW-M;
+}
+p {
+    font-family: GTW-R;
+}
+
+nav{
+    font-family: GTW-M;
+}
+
+#tagline{
+    color: #255cff
+}

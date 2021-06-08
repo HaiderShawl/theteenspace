@@ -9,44 +9,46 @@
 
 	<script src="https://kit.fontawesome.com/656a7483fb.js" crossorigin="anonymous"></script>
 
-
-	<style>
-
-    </style>
-
+    
+    <link rel="stylesheet" href="styles.css">
     <title>The Teen Space</title>
 </head>
 <body>
 
-    <section class="section">
-        <!-- header -->
-        <nav class="navbar navbar-expand-lg  navbar-light">
-            <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img.png" alt="" width="150" height="90">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item p-2">
-                        <a class="nav-link active" aria-current="page" href="#about">About</a>
-                    </li>
-                    <li class="nav-item p-2">
-                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            </div>    
-        </nav>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg  navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img.png" alt="" width="150" height="90">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item p-2">
+                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link active" aria-current="page" href="#connect">Social</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </div>    
+    </nav>
 
-        <div class="container-fluid" style="margin-bottom: 100px">
+    <div class="container-fluid" style="margin-bottom: 100px">
+        <div class="row">
             <div class="col-sm-12 col-md-6 p-3">
-                <h1 class="text-primary" style="font-weight: bold" >
+                <h1 id="tagline">
                     Love Science,
                     Arts, Business,
                     Technology?
+                </h1>
+                <h1>
                     ‍So Think,    
                     Learn & Publish
                 </h1>
@@ -57,27 +59,29 @@
 
                 <button type="button" class="btn btn-dark mt-4" style="border-radius: 30px;"><a href="#contact" style="text-decoration: none;"><h5 class="text-white p-2">Collaborate with us</h5></a></button>
             </div>
+            <div class="col-md-6">
+                <img src="1.jpg" height="500" width="500" alt="">
+            </div>
         </div>
+    </div>
 
 
-        <!-- about us -->
-        <div class="p-5 bg-light rounded-3">
-            <a id="about">
-                <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">About Us</h1>
-                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                </div>
-            </a>
-        </div>
-    </section>
-    
+    <!-- about us -->
+    <div class="p-5 bg-light rounded-3">
+        <a id="about">
+            <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">About Us</h1>
+            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            </div>
+        </a>
+    </div>
 
 	
 	<!-- connect -->
 	<div class="p-5 bg-white rounded-3">
-        <a id="about">
+        <a id="connect">
             <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Connect</h1>
+            <h1 class="display-5 fw-bold">Social Presence</h1>
 			<p class="col-md-8 fs-4">Become a part of our awesome community.</p>
 			<div class="social-btns">
 				<a class="btn facebook" href="https://www.instagram.com/theteenspace/"><i class="fab fa-instagram fa-3x"></i></a>
