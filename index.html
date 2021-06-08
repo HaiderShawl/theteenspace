@@ -9,10 +9,8 @@
 
 	<script src="https://kit.fontawesome.com/656a7483fb.js" crossorigin="anonymous"></script>
 
-    <style>
-		
-    </style>
-
+    
+    <link rel="stylesheet" href="styles.css">
     <title>The Teen Space</title>
 </head>
 <body>
@@ -27,9 +25,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item p-2">
                     <a class="nav-link active" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link active" aria-current="page" href="#connect">Social</a>
                 </li>
                 <li class="nav-item p-2">
                     <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
@@ -40,11 +41,14 @@
     </nav>
 
     <div class="container-fluid" style="margin-bottom: 100px">
+        
         <div class="col-sm-12 col-md-6 p-3">
-            <h1>
+            <h1 id="tagline">
                 Love Science,
                 Arts, Business,
                 Technology?
+            </h1>
+            <h1>
                 ‍So Think,    
                 Learn & Publish
             </h1>
@@ -54,7 +58,6 @@
             </h4>
 
             <button type="button" class="btn btn-dark mt-4"><a href="#contact" style="text-decoration: none;"><h5 class="text-white p-2">Collaborate with us</h5></a></button>
-
         </div>
     </div>
 
@@ -72,9 +75,9 @@
 	
 	<!-- connect -->
 	<div class="p-5 bg-light rounded-3">
-        <a id="about">
+        <a id="connect">
             <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Connect</h1>
+            <h1 class="display-5 fw-bold">Social Presence</h1>
 			<p class="col-md-8 fs-4">Become a part of our awesome community.</p>
 			<div class="social-btns">
 				<a class="btn facebook" href="https://www.instagram.com/theteenspace/"><i class="fab fa-instagram fa-3x"></i></a>
@@ -88,15 +91,15 @@
 	</div>
 
     <!-- contact -->
-    <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="p-5 mb-4 bg-dark rounded-3">
         <a id="contact">
             <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Contact Us</h1>
-            <p class="col-md-8 fs-4">
+            <h1 class="display-5 fw-bold text-white">Contact Us</h1>
+            <p class="col-md-8 fs-4 text-white">
 				Want to collaborate with us, ask a question or just want to say hey? Get in touch!
 			</p>
-            <button type="button" class="btn btn-dark mt-4">
-                <a href="mailto:contact.theteenspace@gmail.com" class="text-white" style="text-decoration: none;"><h5 class="text-white p-1">Contact</h5></a>
+            <button type="button" class="btn btn-light mt-4">
+                <a href="mailto:contact.theteenspace@gmail.com" class="text-black" style="text-decoration: none;"><h5 class="text-black p-1">Contact</h5></a>
             </button>            
             </div>
         </a>
